@@ -1,0 +1,47 @@
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+main section {
+    padding-top: 10vh;
+    height: 90vh;
+    width: 100vw;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#home article {
+    width: 50vw;
+    height: 30vh;
+    text-align: center;
+    font-size: 3ex;
+}
+
+#home .slider {
+    display: flex;
+    background-color: whitesmoke;
+    height: 40vh;
+    width: 80vw;
+    margin: 4ex;
+}
+
+#home .info{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+.info #left, .info #right {
+    background-color: rgba(255, 255, 255, 0.684);
+    width: 45vw;
+    margin: 2ex;
+    box-shadow: 0.5rem 0.5rem 0.5rem rgb(158, 168, 168);
+}
